@@ -11,19 +11,19 @@ function Feature() {
         />
       </div>
       <div className=" py-2 mt-2 lg:w-9/12">
-        <h1 className="">
+        <h1>
           <strong>1</strong> A multiple choice quiz maker for memory retention
           Have you heard of the testing effect? It says that the more often you
           test your knowledge, the more you'll learn .
         </h1>
         <br />
-        <h1 className="">
+        <h1 >
           <strong>2</strong> Use a quiz builder to give students an engaging
           learning experience Ever been excited by the phrase “It’s test time!”?
           Didn’t think so. Sure, quizzes should first and foremost track .
         </h1>
         <br />
-        <h1 className="">
+        <h1 >
           <strong>3</strong> Collect leads, grow your brand You want your brand
           to be known for something—your primary content pillar. Create online
           quizzes about anything from pop culture to history and tie it back
