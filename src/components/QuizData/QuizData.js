@@ -4,26 +4,6 @@ import QuizQues from '../QuizQues/QuizQues';
 
 function QuizData({ quizData }) {
   const { correctAnswer, id, question } = quizData;
-  const notify = ()=> toast.info(correctAnswer, {
-        position: "top-right",
-        autoClose: 1000 ,
-        closeOnClick: true ,
-        pauseOnHover: true ,
-        draggable: true 
-    })
-    
-    const answer = answer =>{
-        if(answer === correctAnswer){
-            toast(correctAnswer,{
-                position: "top-right",
-                autoClose: 1000 ,
-                closeOnClick: true ,
-                pauseOnHover: true ,
-                draggable: true 
-            }
-      )
-    }
-  }
   
     return (
       <div>
