@@ -4,14 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function QuizQues({ correctAnswer, option }) {
   
-    const notify = () => toast(result());
-    const result = () => {
-      if (option === correctAnswer) {
-        return "Congratulation..!";
-      } else {
-        return "Try Again";
-      }
-    };
+
     return (
       <div className="bg-gray-400 border rounded py-2 my-2 px-2">
         <input
