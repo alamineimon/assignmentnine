@@ -9,7 +9,9 @@ function Home() {
       <div className="">
         <Feature></Feature>
         <div className="grid md:grid-cols-4  gap-3 sm:grid-cols-1 p-4 w-11/12	 m-auto">
-          
+          {quizData.map((quiz) => (
+            <Topics key={quiz.id} quiz={quiz}></Topics>
+          ))}
         </div>
       </div>
     );
